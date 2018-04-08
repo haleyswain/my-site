@@ -1,23 +1,19 @@
 <template>
-  <div class="portfolio__greeting">
-    <h2>{{title}}</h2>
-    <p>{{greeting()}}</p>
+  <div id="app">
+      <nav>
+        <router-link to="/">Home</router-link>
+        <router-link to="/articles">Articles</router-link>
+        <router-link to="/projects">Projects</router-link>
+        <router-link to="/technologies">Technologies</router-link>
+      </nav>
+    <router-view/>
   </div>
-
 </template>
 
 <script>
 export default {
-  name: 'app',
+  name: 'portfolio',
   data () {
-    return {
-      title: 'nice to meet you'
-    }
-  },
-  methods: {
-    greeting: function() {
-      return 'welcome to my portfolio'
-    }
   }
 }
 </script>
