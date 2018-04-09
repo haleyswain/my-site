@@ -1,16 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import Banner from './components/Banner.vue'
+import Home from './components/Home.vue'
 import Articles from './components/Articles.vue'
-import Biography from './components/Biography.vue'
 import Projects from './components/Projects.vue'
 import Technologies from './components/Technologies.vue'
+import Element from 'element-ui'
+
+Vue.use(Element)
 
 
-Vue.component('Banner', Banner);
+Vue.component('Home', Home);
 Vue.component('Articles', Articles);
-Vue.component('Biography', Biography);
 Vue.component('Projects', Projects);
 Vue.component('Technologies', Technologies);
 

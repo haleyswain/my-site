@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio__greeting">
-    <h2>heres some articles</h2>
+    <h1>Articles</h1>
   </div>
 
 </template>

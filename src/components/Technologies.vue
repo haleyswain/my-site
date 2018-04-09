@@ -1,6 +1,6 @@
 <template>
   <div class="portfolio__greeting">
-    <h2>heres some technologies ive used</h2>
+    <h2>Tech</h2>
   </div>
 
 </template>
